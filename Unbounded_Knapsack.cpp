@@ -16,7 +16,7 @@ int knapsack(int n,int w,int wt[],int val[])
     return dp[n][w]=knapsack(n-1,w,wt,val);
 }
 int main()
-{
+{ 
     int n;
     cin>>n;
     int wt[n];
